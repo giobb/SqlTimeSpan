@@ -19,7 +19,6 @@ public struct SqlTimeSpan : INullable
 
     public static SqlTimeSpan Parse(SqlString input)
     {
-
         var udt = new SqlTimeSpan
         {
             SystemTimeSpan = TimeSpan.Parse(input.Value)
@@ -67,33 +66,24 @@ public struct SqlTimeSpan : INullable
     }
 
     public static SqlTimeSpan FromDays(double days)
-    {
-        return new SqlTimeSpan(TimeSpan.FromDays(days), false);
-    }
+        => new SqlTimeSpan(TimeSpan.FromDays(days), false);
 
     public static SqlTimeSpan FromHours(double hrs)    
         => new SqlTimeSpan(TimeSpan.FromHours(hrs), false);
 
     public static SqlTimeSpan FromMilliseconds(double ms)
-    {
-        return new SqlTimeSpan(TimeSpan.FromMilliseconds(ms), false);
-    }
+        => new SqlTimeSpan(TimeSpan.FromMilliseconds(ms), false);    
 
     public static SqlTimeSpan FromMinutes(double mins)
-    {
-        return new SqlTimeSpan(TimeSpan.FromMinutes(mins), false);
-    }
+        => new SqlTimeSpan(TimeSpan.FromMinutes(mins), false);
 
     public static SqlTimeSpan FromSeconds(double seconds)
-    {
-        return new SqlTimeSpan(TimeSpan.FromSeconds(seconds), false);
-    }
+        => new SqlTimeSpan(TimeSpan.FromSeconds(seconds), false);
+    
 
     public static SqlTimeSpan FromTicks(long ticks)
-    {
-        return new SqlTimeSpan(TimeSpan.FromTicks(ticks), false);
-    }
-
+        => new SqlTimeSpan(TimeSpan.FromTicks(ticks), false);
+    
     #endregion
 
     #region Properties

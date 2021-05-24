@@ -26,9 +26,8 @@ public struct SumTS
     }
 
     public void Merge(SumTS group)
-    {
-        _accumulatedTS = SqlTimeSpan.Add(_accumulatedTS, group.Terminate());
-    }
+        => _accumulatedTS = SqlTimeSpan.Add(_accumulatedTS, group.Terminate());
+    
 
     public SqlTimeSpan Terminate()
     {
