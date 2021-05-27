@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.31213.239
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlTimeSpan", "SqlTimeSpan\SqlTimeSpan.csproj", "{7EB48224-6EDC-496C-8185-CFC8D9F1CED6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C94B370F-2134-422E-B846-6CE964F84AFB}"
+	ProjectSection(SolutionItems) = preProject
+		SqlTimeSpan\CREATE objects.sql = SqlTimeSpan\CREATE objects.sql
+		SqlTimeSpan\DROP objects.sql = SqlTimeSpan\DROP objects.sql
+		SqlTimeSpan\Illustrations.sql = SqlTimeSpan\Illustrations.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -7,8 +7,8 @@
     <ProjectGuid>{7EB48224-6EDC-496C-8185-CFC8D9F1CED6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SqlTimeSpan</RootNamespace>
-    <AssemblyName>TwisturTales.SqlTimeSpan</AssemblyName>
+    <RootNamespace>SLackerSLab.SqlTypes</RootNamespace>
+    <AssemblyName>SLackerSLab.SqlTimeSpan</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
