@@ -104,26 +104,31 @@ namespace SLackerSLab.SqlTypes
 
         public int Days
         {
+            [SqlMethod(IsDeterministic = true)]
             get => SystemTimeSpan.Days;
         }
 
         public int Hours
         {
+            [SqlMethod(IsDeterministic = true)]
             get => SystemTimeSpan.Hours;
         }
 
         public int Milliseconds
         {
+            [SqlMethod(IsDeterministic = true)]
             get => SystemTimeSpan.Milliseconds;
         }
 
         public int Minutes
         {
+            [SqlMethod(IsDeterministic = true)]
             get => SystemTimeSpan.Minutes;
         }
 
         public int Seconds
         {
+            [SqlMethod(IsDeterministic = true)]
             get => SystemTimeSpan.Seconds;
         }
 

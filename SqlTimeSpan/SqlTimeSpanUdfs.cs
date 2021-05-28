@@ -4,7 +4,7 @@ using System;
 
 namespace SLackerSLab.SqlFunctions
 {
-    static public partial class SqlTimeSpanUdfs
+    static public class SqlTimeSpanUdfs
     {
         /// <summary>
         /// Adds time span to date time.
