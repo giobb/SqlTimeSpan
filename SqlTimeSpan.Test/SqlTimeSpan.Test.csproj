@@ -9,7 +9,7 @@
     <ProjectGuid>{282AD468-76FE-4E0D-B891-AC02B655F4FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SqlTimeSpan.Test</RootNamespace>
+    <RootNamespace>SLackerSLab.Test</RootNamespace>
     <AssemblyName>SqlTimeSpan.Test</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="SqlTimeSpanTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlTimeSpanUdfsTest.cs" />
     <Compile Include="TestExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
